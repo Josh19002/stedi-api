@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: cluster-1    # Add your cluster name here.
   GKE_ZONE: us-central1   # Add your cluster zone here.
   DEPLOYMENT_NAME: joshua-api # Add your deployment name here.
-  IMAGE: dev-stedi-joshua
+  IMAGE: joshua-api
 
 jobs:
   setup-build-publish-deploy:
