@@ -58,7 +58,7 @@ metadata:
   name: prod-stedi-joshua-nodeport
 spec:
   selector:
-    app: prod-stedi-josua
+    app: prod-stedi-joshua
   type: NodePort
   ports:
     - port: 80
